@@ -1,0 +1,22 @@
+[package]
+name = "Emather"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "0.16"
+cgmath = "0.18"
+nalgebra = "0.32"
+env_logger = "0.9"
+futures = "0.3"
+gfx-hal = "0.9"
+image = "0.24"
+log = "0.4"
+pollster = "0.3"
+winit = "0.28"
+bytemuck = { version = "1.13", features = ["derive"] }
+rand = "0.8.0"
+tobj = { version = "3.2.1", features = ["log"] }
+anyhow = "1.0"
+tokio = { version = "1", features = ["full"] }
+wavefront_obj = "11.0"
